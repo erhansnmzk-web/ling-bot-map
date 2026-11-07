@@ -45,4 +45,5 @@ export const devApiPlugin = (): Plugin => ({
       const { status, body } = resolveEndpointResponse(pathname, req.method ?? 'GET', req.headers.authorization);
       writeJson(res, status, body);
     });
-  
+
+    
