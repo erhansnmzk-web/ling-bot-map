@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from 'node:http';
 import type { Plugin } from 'vite';
-import { resolveEndpointResponse } from './src/contracts/api';
+import { resolveEndpointResponse } from './src/contracts/api/;
 
 const handledPaths = new Set([
   '/api',
