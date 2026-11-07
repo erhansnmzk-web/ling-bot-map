@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 import { devApiPlugin } from './dev-api-plugin';
 
 export default defineConfig({
-  base: process.env.VITE_BASE_PATH || '/',
+  base: process.env.VITE_BASE_PATH || "/ling-bot-map/
   plugins: [react(), tailwindcss(), devApiPlugin()],
   resolve: {
     alias: {
